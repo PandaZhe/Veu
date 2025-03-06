@@ -1,0 +1,24 @@
+body #footer {
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+body #footer .in1 {
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 5px;
+  padding: 10px 200px;
+  background-color: #434343;
+}
+body #footer .in1 h1 {
+  font-size: 30px;
+  /* line-height: 0px; */
+}
+body #footer .in2 {
+  margin: 0;
+  background-color: #999;
+}
+body #footer .in2 p {
+  display: inline;
+}/*# sourceMappingURL=footer.css.map */

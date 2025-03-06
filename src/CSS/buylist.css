@@ -1,0 +1,115 @@
+#BOX {
+  width: 90%;
+  margin: 65px auto 10px;
+  min-height: 75vh;
+}
+
+#totle_0 {
+  background-color: antiquewhite;
+  font-size: 50px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 1.5vw;
+}
+
+#path {
+  min-height: 100px;
+  font-size: 50px;
+}
+
+#cart .butBox button {
+  box-sizing: border-box;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 0;
+  padding: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#cart .butBox button:hover {
+  color: grey;
+  text-shadow: 0 0 3px white,
+    0 0 3px white,
+    0 0 3px white;
+}
+
+.bgc1 {
+  background-color: rgba(30, 144, 255, 0.6);
+}
+
+.bgc2 {
+  background-color: orchid;
+}
+
+.bgc3 {
+  background-color: lightgreen;
+}
+
+.bgc4 {
+  background-color: red;
+}
+
+#cart .table1 {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 2vw;
+}
+
+#cart .table1 .span1 {
+  color: fuchsia;
+}
+
+#cart .table1 thead {
+  background-color: yellow;
+  font-size: 2vw;
+}
+
+#cart .table1 thead th {
+  padding: 0.5vw;
+  border: 1px solid red;
+}
+
+#cart .table1 tbody tr,
+#cart .table1 tfoot tr {
+  border-bottom: 2px solid #999;
+}
+
+#cart .table1 tbody td {
+  text-align: center;
+  vertical-align: middle;
+  /* border: 1px solid red; */
+}
+
+#cart .table1 tbody td input {
+  font-size: inherit;
+  text-align: center;
+}
+
+#cart .table1 tbody td input:invalid {
+  outline-color: red;
+}
+
+#cart .table1 img {
+  width: 100%;
+}
+
+#cart .table1 button {
+  font-size: inherit;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
+#cart .table1 button:hover {
+  color: black;
+}
+
+#cart .table1 tfoot td {
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}

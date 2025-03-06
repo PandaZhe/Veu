@@ -1,0 +1,98 @@
+#BOX {
+  margin: 65px auto 10px;
+  width: 90%;
+  min-height: 80vh;
+}
+
+.loginBox {
+  width: 60%;
+  min-height: 100px;
+  margin: 0px auto;
+  border: 2px solid #888;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.loginBox h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.loginBox label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  background-color: skyblue;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.loginBox label span {
+  width: 15%;
+  text-align: right;
+  vertical-align: middle;
+  margin-right: 10px;
+  /* border: 1px solid red; */
+}
+.loginBox  .span_Red{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loginBox label input {
+  flex-grow: 1;
+  box-sizing: border-box;
+  font-size: inherit;
+  padding-left: 5px;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+}
+
+.loginBox label img {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.loginBox .butBox {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: inherit;
+}
+
+.loginBox .butBox button {
+  font-size: inherit;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.loginBox .butBox button[type='submit'] {
+  background-color: lime;
+}
+
+.loginBox .butBox button[type='reset'] {
+  background-color: deeppink;
+}
+
+.register {
+  text-align: right;
+}
+
+.register span {
+  cursor: pointer;
+}
+
+.register span:hover {
+  color: blue;
+}

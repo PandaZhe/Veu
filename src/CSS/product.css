@@ -1,0 +1,110 @@
+#outBox {
+  width: 90%;
+  margin: 63px auto 20px;
+  min-height: 800px;
+}
+
+.path {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold ;
+  /* border: 1px solid red; */
+}
+.path .span_a{
+  color: rgba(0, 0, 255,0.7);
+  cursor: pointer;
+}
+.total_0{
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px;
+  background-color: rgba(255, 0, 0,0.5);
+  font-size: 60px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.cardOut {
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.cardBox {
+  border: 1px solid #AAA;
+  height: 25vw;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardBox img {
+  max-width: 80%;
+  max-height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardBox .span1 {
+  display: block;
+  font-size: 25px;
+  text-align: center;
+}
+
+.cardBox .span2,
+.cardBox .span2_red {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+}
+.cardBox .span2_red{
+  color: red;
+}
+
+.cardBox .butBox {
+  margin: auto 20px 20px;
+}
+
+.cardBox .butBox button {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  background-color: deepskyblue;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.page {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+  /* border: 1px solid red; */
+}
+.page>button{
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: cornsilk;
+  border-radius:10px ;
+  cursor: pointer;
+}
+.page input{
+  font-size: inherit;
+  text-align: inherit;
+  width: 60px;
+}
+
+
+
+
+
+.page_color:hover {
+  color: red;
+  border: 1px solid #AAA;
+  background-color: #BBB;
+}

@@ -1,0 +1,67 @@
+/* 開關容器 */
+:root {
+  /* 寬度 */
+  --max_width: 50px;
+  /* 高度 */
+  --max_height: 25px;
+  /* slider背景色 */
+  --bgc:cornflowerblue;
+  /* slider1背景色 */
+  --bgc_1:rgba(255, 0, 0,0.5);
+}
+
+#switch {
+  position: relative;
+  display: inline-block;
+  width: var(--max_width);
+  height: var(--max_height);
+}
+
+/* 隱藏的原始 checkbox */
+#switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* 滑動條 */
+.slider,
+.slider1 {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.2s;
+  border-radius: var(--max_height);
+}
+
+/* 圓形滑塊 */
+.slider:before,
+.slider1:before {
+  position: absolute;
+  content: "";
+  height: calc(var(--max_height) * 0.75);
+  width: calc(var(--max_height) * 0.75);
+  left: calc(var(--max_height) * 0.125);
+  top:  calc(var(--max_height) * 0.125);
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* 開啟狀態的顏色 */
+input:checked+.slider {
+  background-color: var(--bgc);
+}
+input:checked+.slider1 {
+  background-color: var(--bgc_1);
+}
+
+/* 開啟狀態的滑塊位置 */
+input:checked+.slider:before,
+input:checked+.slider1:before {
+  transform: translateX(calc(var(--max_width) - var(--max_height)));
+}
